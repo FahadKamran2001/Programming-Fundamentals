@@ -1,0 +1,62 @@
+Problem 01:
+Write a C++ program that displays a menu to the user to choose among four
+arithmetic operations, gets the operands from the user and finally call the relevant
+functions to perform that particular operation. After the display of the results.
+Problem 02:
+Write a program that displays the following menu:
+Geometry Calculator
+1. Calculate the Area of a Circle
+2. Calculate the Area of a Rectangle
+3. Calculate the Area of a Triangle
+4. Quit
+Enter your choice (1-4):
+If the user enters 1, the program should ask for the radius of the circle and then
+display its area (use functions for each category). Use the following formula:
+A = πr2
+Use 3.14159 for π and the radius of the circle for r.
+ If the user enters 2, the program should ask for the length and width of the
+rectangle and then display the rectangles area. Use the following formula:
+area = length * width
+ If the user enters 3 the program should ask for the length of the triangle base
+and its height, and then display its area. Use the following formula:
+area = base * height * .5
+ If the user enters 4, the program should end displaying a message.
+Input Validation: Display an error message if the user enters a number outside the
+range of 1 through 4 when selecting an item from the menu. Do not accept
+negative values for the circles radius, the rectangles length or width, or the
+triangles base or height.
+
+Problem 03:
+A large company pays its salespeople on a commission basis. The salespeople each
+receive Rs. 2,000 per week plus 9% of their gross sales for that week. For example,
+a salesperson who sells Rs. 50,000 worth of chemicals in a week receives Rs. 2,000
+plus 9% of Rs. 50,000, or a total of Rs. 6500. Develop the algorithm of the program
+that input salesperson’s gross sales for last week and calculates and displays that
+salesperson’s earnings.
+Problem 04:
+Assume that a customer wants to have a standard size picture and does not want to
+go to professional studio. Instead he goes to road side photo booth. The machine
+shows the following menu on the screen:
+• Colored Photograph
+• Black & White Photograph
+• Sketch
+The program should be made with if / else structure. Also, use functions for each
+category of the picture. The user should be able to enter the category, type and
+quantity of the photograph he / she wants. The program should be able to calculate
+the total amount which needs to be paid by the customer. One the menu has been
+selected, further options can be selected:
+Colored Photograph:
+• Passport Size Photograph for Rs. 10/-
+• 6’ x 4’ Photograph for Rs. 30/-
+• 5’ x 11 Photograph for Rs. 50/-
+Black & White Photograph:
+• Passport Size Photograph for Rs. 12/-
+• 6’ x 4’ Photograph for Rs. 35/-
+• 5’ x 11’ Photograph for Rs. 60/-
+Sketch:
+
+• Passport Size Photograph for Rs. 15/-
+• 6’ x 4’ Photograph for Rs. 40/-
+• 5’ x 11’ Photograph for Rs. 80/-
+Make a program which can take the user input and can calculate the total amount to
+be inserted in the machine.
