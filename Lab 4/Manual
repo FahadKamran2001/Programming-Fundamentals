@@ -1,0 +1,60 @@
+Question #1:
+Write a C++ program to ask user to enter a number and check whether the entered number is zero or
+negative number or positive number.
+Note: Use switch within a Switch (Nested Switch)
+Question #2:
+Write a C++ program to take a whole number in the range of 1 and 99999 as input from the user and
+show the number of digits entered by user. Example:
+
+• if enters 7, the program should show "You have Entered a 1 Digit Number"
+• if enters 342, the program should show "You have Entered a 3 Digit Number",
+• if enters some other number, show "Invalid Input".
+Note: Use ternary operators and Switch Case Statement.
+Question #3:
+Write a C++ program to check whether an entered year is Leap year or not using Ternary operators. And
+repeatedly ask input from user until input year is not 0.
+Question #4:
+Write a C++ program to find the number of days in a month using Switch...case. Use best approach for this
+program.
+Note: Instead of repeating same action on multiple cases, you can group similar cases together and perform
+single action on group of cases. To group, arrange all similar cases one after other and remove break statement
+from all cases other than last case.
+Question #5:
+In a Math class, students are asked to calculate the roots of a quadratic equation. Students find that a quadratic
+equation can have either one or two distinct real or complex roots depending upon nature of discriminant of the
+equation. Where discriminant of the quadratic equation is given by
+
+Case 1: If discriminant is zero, roots can be
+
+Case 2: If discriminant is positive. Roots will be:
+
+Case 3: If discriminant is negative. Then it will have two distinct complex roots given by.
+
+Now, write a C++ program to find the roots of quadratic equation using Switch...case. First take inputs from user
+of quadratic equations (aX^2 + bX + c), Calculate discriminant and then compute roots of quadratic equation
+based on the nature of discriminant using nested switch case.
+
+Question #6:
+METRO’s store is having a sale on everything in the store. Customers will receive additional discounts on their
+total purchase depending upon how much they buy. Write a C++ program that asks for the total purchase from
+the user and then take the amount to calculate the discount and new amount, then print out all the 3 values.
+The discount scheme is as fellow:
+
+Total Purchase Discount
+Less than 1000 10%
+1000 to 2000 20 %
+2000 to 5000 30%
+5000 to 7500 40%
+Above 7500 50%
+
+Output should be look like this
+
+Total Purchase Rs/- 5225
+Discount Rs/- 2090
+----------------------------
+New Price Rs/- 3135
+Thank you for shopping with us
+
+Note: Use ternary operator to solve the problem
+
+END
