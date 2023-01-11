@@ -1,0 +1,104 @@
+Programming Fundamentals Lab-3
+Insertion operator , setw & setprecision functions
+
+
+Exercise 1: A Simple First Program
+You need to perform the following to complete the task.
+1.	Open the Terminal (Ctrl + Alt + t)
+2.	Installation g++
+lab@lab-OptiPlex-330:~$ sudo apt install g++
+
+Note: g++ is already install on lab PCs
+3.	Create file of .cpp file extension using touch command
+~$ touch helloworld.cpp
+
+4.	Now open the text editor using gedit command
+~$ gedit helloworld.cpp
+
+5.	Write the helloworld code in helloworld.cpp file.
+
+
+6.	Save and close the file.
+7.	compile and execute it
+~$ g++ -o hello helloworld.cpp
+~$./hello
+ 
+Standard output (cout)
+cout is a C++ stream object, used for standard output by default is the screen. For formatted output operations, cout is used together with the insertion operator, which is written as << (i.e., two "less than" signs).
+
+
+
+Escape Sequences
+
+Character combinations consisting of a backslash (\) followed by a letter or by a combination of digits are called "escape sequences." To represent a newline character, single quotation mark, or certain other characters in a character constant, you must use escape sequences. An escape sequence is regarded as a single character and is therefore valid as a character constant. Escape sequences are used to format our output. The following escape sequences can be used to print out special characters.
+
+Escape Sequence	Description
+\n	Newline
+\t	Horizontal tab
+\\	Backslash
+\'	Single quote
+\"	Double quote
+
+
+To insert a line break, a new-line character shall be inserted at the exact position the line should be broken. In C++, a new-line character can be specified as \n (i.e., a backslash character followed by a lowercase n). For example:
+This produces the following output:
+ 
+ 
+Alternatively, the endl manipulator can also be used to break lines. For example:
+Output
+ 
+
+
+Example 2.1
+Following program shows the use of Newline Escape Sequence (\n)
+
+Output
+ 
+
+Your turn: Edit above given code and use endl manipulator.
+
+Example 2.2
+This program shows the use of Horizontal tab Escape Sequence (\t)
+ 
+Output
+Now try escape sequences \\ , \' , \" yourself. Example 2.3
+Program using multiple insertion operations (<<)
+
+Output
+
+iomanip
+iomanip is a library that is used to manipulate the output of C++ program. Below are some Parametric manipulators
+1.	setw
+It is used to sets the field width to be used on output operations.
+Example
+Now compile your code and see what the output is.
+ 
+2.	setprecision
+It is used to sets the decimal precision to be used to format floating-point values on output operations.
+Example
+Output
+
+ 
+Exercise:
+Problem 01
+
+Write your first program saying, “Hello World”. Now change the program to print your name and roll number instead.
+Problem 02
+
+Write a program that prints the arrow pointing up using COUT statement.
+
+
+
+Problem 03
+
+Write a program that prints the house using COUT & setw statement.
+
+Note: Use setw function instead of space character
+ 
+Problem 04
+
+Write a program to print the chrismas tree using just ONE COUT statement & setw function
+
+
+Note: Use setw function instead of space character
+
