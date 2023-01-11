@@ -1,0 +1,80 @@
+Programming Fundamentals Lab FALL, 2020 NUCES, Islamabad
+
+1
+National University of Computer and Emerging Sciences Islamabad Programming
+
+Fundamentals Lab FALL 2020
+
+Lab Manual 04
+
+Extraction Operators, Expressions and Precedence
+
+1) Variables: Data Types, sizeOf and Polarity:
+Example 1.1:
+
+Programming Fundamentals Lab FALL, 2020 NUCES, Islamabad
+
+2
+2) Standard Input (cin):
+Example 1.2:
+
+Example 2.1:
+
+Example 2.2:
+
+3) Operators:
+
+Programming Fundamentals Lab FALL, 2020 NUCES, Islamabad
+
+3
+Arithmetic Operator
+
+Programming Fundamentals Lab FALL, 2020 NUCES, Islamabad
+
+4
+
+Lab Tasks
+
+Problem 01
+Write a program that takes mass as an input and calculates the weight of an object using formula:
+
+Weight = mass x 9.8
+
+Choose the data types wisely.
+Problem 02
+Write a program that converts inches to yards and feet. Prompt the user to enter an integer value i.e. the
+number of inches, and then make the conversion and output the result in the following format.
+03 yards: 20 feet : 45 inches
+Note: 1 ft = 12 inches 1 yard = 3ft
+
+Problem 03
+Write a program for the following mathematical trick.
+Ask user for any number. Double it. Add 10 to it. Now half the number. Then subtract your first number.
+The answer will be five.
+Example 3.1:
+
+Programming Fundamentals Lab FALL, 2020 NUCES, Islamabad
+
+5
+Note: Perform the above task with only one mathematical equation. Keep the concept of operator
+precedence in mind.
+Problem 04
+Write a program that takes sales unit price and sales quantity of only two items as input and compute the
+total sales amount. After that calculates 10% tax on total sales amount. Display the total sales amount
+before and after tax deduction.
+Note: Consider only two items.
+Problem 05
+Write a program to find whole square of three numbers by the following formula
+
+(a + b + c) 2
+
+= a2 + b2 + c2 + 2 (ab + bc + ca)
+
+Note: Get the values of a, b and c from user.
+Submission Instructions:
+1.Save all .cpp files with your roll no and task number
+e.g. i20XXXX_Task04.cpp
+2. Now create a new folder with name ROLLNO_LAB04 e.g. i20XXXX_LAB04
+3. Move all of your .cpp files to this newly created directory and compress it into .zip file.
+4.Now you have to submit this zipped file on Google Classroom.
+THE END
